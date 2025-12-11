@@ -18,4 +18,4 @@ func _physics_process(delta: float) -> void:
 	$HSlider2/Label.text = str(int($HSlider2.value))
 	
 	$Label.text = "x: cos(%.5f) y: sin(%.5f)" % [angle, angle]
-	```
+```
